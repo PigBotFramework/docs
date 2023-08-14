@@ -1,0 +1,18 @@
+PBF:
+  name: PigBotFramework V4
+  title: PBFv4 - 更方便的机器人框架
+  subtitle: 'print(PBFv4.__doc__) | 被你看到了呢（羞'
+  tags: 小猪比机器人
+  cover: true
+  logo:
+    src: https://pbf.xzynb.top/statics/images/head.jpg
+    small: 112px
+    large: 240px
+  description: PBFv4是一个方便易用快速的机器人框架，遵守OneBot(v11)标准。
+  repo: PigBotFramework/v4
+  comment_title: '发现文档错误请提 [issue](https://github.com/PigBotFramework/docs/issues) 反馈。'
+  sections:
+    '快速开始': [1, 1]
+    'API接口一览': [2, 2]
+    '进阶用法': [3, 3]
+    '做出贡献': [4, 4]

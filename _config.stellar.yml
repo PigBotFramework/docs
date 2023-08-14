@@ -1,0 +1,32 @@
+open_graph:
+  enable: true
+  twitter_id: Gingmzmzx # for open_graph meta
+
+article:
+  auto_cover: true
+  auto_excerpt: 200
+
+sidebar:
+  menu:
+    wiki: '[btn.wiki](/wiki/)'
+    post: '[btn.blog](/)'
+
+footer:
+  social:
+    github:
+      icon: '<img src="/assets/placeholder/social/08a41b181ce68.svg"/>'
+      url: https://github.com/PigBotFramework/docs
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% image %}
+  image:
+    fancybox: true
+    replace_original:  #把markdown格式的图片解析成图片标签
+      enable: true
+  quot:
+    default: # 可以自行配置多种图标方案
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e092ff.png
+      suffix: https://bu.dusays.com/2022/10/24/63567d3e0ab55.png
+    hashtag:
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e07da3.png
